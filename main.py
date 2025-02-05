@@ -14,9 +14,5 @@ def joint_projects():
 def individual_projects():
     return render_template("individual_projects.html")
 
-@app.route("/code_exercises")
-def code_exercises():
-    return render_template("code_exercises.html")
-
 if __name__ == '__main__':
     app.run(port=5000)
